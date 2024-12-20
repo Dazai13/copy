@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Rubik';
-    src: url('assets/font/Rubik-VariableFont_wght.ttf');
+    src: url('../font/Rubik-VariableFont_wght.ttf');
 }
 
 *{
@@ -410,7 +410,7 @@ html,body {
 }
 .form-inner:before{
     content: '';
-    background-image: url("assets/img/6.jpg");
+    background-image: url("../img/6.jpg");
     position: absolute;
     top: 0;
     left: 0;
@@ -545,4 +545,21 @@ html,body {
     color: var(--intro-text);
     transition-property: color, background;
     transition:0.3s ease-in-out;
+}
+
+.contact-location{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.location-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.location-text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
 }

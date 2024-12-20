@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@17.0.8/build/css/intlTelInput.min.css">
     <title>Document</title>
 </head>
 <body>
@@ -24,7 +25,7 @@
                     </div>
                     <div class="info-text-link">
                         <div class="text-link-icon"><img class = 'link-icon' src="assets/img/mail.svg" alt=""></div>
-                        <a href="/" class="text-link">dino.plast@bk.ru </a>
+                        <a href="/" class="text-link">dino.plast@bk.ru</a>
                     </div>
                 </div>
                 <div class="nav">
@@ -200,10 +201,36 @@
     </div>
     <div class="form">
         <div class="form-inner">
-            <div class="form-backround">
+            <div class="form-inner-text">
+                <div class="form-title">
+                    вы ещё думаете?
+                </div>
+                <div class="form-subtitle">
+                    ТЕРМОПАНЕЛИ ЭТО НАДЕЖНЫЙ И ДОЛГОВЕЧНЫЙ <br>МАТЕРИАЛ, КОТОРЫЙ НЕ ТРЕБУЕТ УХОДА
+                </div>
+                <div class="form-text">
+                    МОГУТ МОНТИРОВАТЬСЯ НА ЛЮБУЮ ПОВЕРХНОСТЬ: КИРПИЧ, БЕТОН, ДЕРЕВО, <br>ГАЗОБЕТОН, OSB И ДАЖЕ ГИПСОКАРТОН В ЛЮБОЕ ВРЕМЯ ГОДА ПРИ ЛЮБОЙ
+                    <br>ПОГОДЕ, БЕЗ НАРУШЕНИЯ ТЕХНОЛОГИЧЕСКОГО ПРОЦЕССА.
+                </div>
             </div>
-            <div class="form-title">
-                Привет
+            <div class="form-panel">
+                <div class="form-header">
+
+                </div>
+                <div class="form-body">
+                    <div class="block-title form-panel-title">
+                        ПОЛУЧИТЕ<span>
+                        КОНСУЛЬТАЦИЮ</span>
+                    </div>
+                    <div class="form-panel-subtitle">
+                        МЫ ПОМОЖЕМ НЕ ТОЛЬКО ПОДОБРАТЬ ЦВЕТ И <br>ФАКТУРУ КЛИНКЕРНОЙ ПЛИТКИ, НО И <span>СДЕЛАЕМ <br>НЕОБХОДИМЫЕ РАСЧЕТЫ ПО ВАШЕМУ ПРОЕКТУ!</span>
+                    </div>
+                    <form class = "main-form" id="myForm" method="post">
+                        <input type="text" id="name" name="name" placeholder="Введите ваше имя">
+                        <input type="tel" id="phone" name="phone" placeholder="(999) 999-99-99">
+                        <button type="submit" value="Отправить">отправить</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
@@ -252,5 +279,17 @@
             <div class="underline-line"></div>
         </div>
     </div>
+    <footer class = "footer">
+        <div class="footer-container">
+            <div class="background"><img src="" alt=""></div>
+            <div class="footer-content">
+                <div class="footer-logo"></div>
+
+            </div>
+        </div>
+    </footer>
+<script src = "assets/js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@17.0.8/build/js/intlTelInput.min.js"></script>
+<script src = "assets/js/number-mask.js"></script>
 </body>
 </html>
